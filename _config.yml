@@ -1,0 +1,4 @@
+title: Dilowar Hossain
+plugins:
+- jekyll-remote-theme
+theme: minima
