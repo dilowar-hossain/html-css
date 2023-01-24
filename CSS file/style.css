@@ -17,6 +17,9 @@ nav {
   color: rgb(red, green, blue);
   position: fixed;
 }
+/* nav > .social-network{
+  flex: 2;
+} */
 nav a {
   display: inline-block;
   width: 100px;
@@ -74,4 +77,57 @@ nav li:hover {
   ul {
     display: none;
   }
+}
+.background{
+  background: url(../images/baground.jpg);
+  height: 400px;
+  padding: 180px 0 0 0;
+}
+#about{
+  text-align: center;
+  color: #380f56;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.social-icon{
+  height: 245px;
+  width: 200px;
+}
+.social-icon a{
+  font-size: 20px;
+  padding: 22px;
+  display: flex;
+  display: inline-block;
+  
+}
+.handles{
+  text-align: center;
+  color: #ca94ef;
+}
+.social-icon1 :hover{
+  background-color: green;
+}
+.my-location{
+  margin: 8px;
+  padding: 8px;
+ 
+}
+.location{
+  text-align: center;
+}
+footer .Contact{
+  padding:0;
+  margin: 8px;
+  width: 300px;
+}
+.copyright{
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+  background-color: rgb(53, 53, 47);
+  color: rgb(26, 195, 195);
 }
