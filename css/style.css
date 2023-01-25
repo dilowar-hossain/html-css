@@ -78,6 +78,7 @@ nav li:hover {
     display: none;
   }
 }
+  /*  backgroung image  */
 .background{
   background: url(../images/baground.jpg);
   height: 400px;
